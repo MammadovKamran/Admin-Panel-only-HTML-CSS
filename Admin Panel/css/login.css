@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.d-flex {
+    display: flex;
+  }
+  .direction-row {
+    flex-direction: row;
+  }
+  .direction-column {
+    flex-direction: column;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-start{
+      justify-content: flex-start;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+.align-start{
+      align-items:start;
+  }
+ 
+.container {
+  display: block;
+  width: 100%;
+  height: 112vh;
+  background-color: #4469d4;
+}
+main {
+  position: relative;
+  display: flex;
+  width: 67%;
+  height: 96vh;
+  margin: auto;
+  top: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.dog-img {
+  width: 50%;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+.right-block{
+    margin: 50px 0 0 60px ;
+}
+.login{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login>input{
+width: 21.7rem;
+border-radius: 30px;
+margin-bottom: 20px;
+}
+
+.login>h1{
+    font-size: 22px;
+    font-weight: 300;
+  padding-bottom: 30px;
+    color: rgb(70, 67, 67);
+    text-align: center;
+}
+#email,#password{
+    height: 3.3rem;
+    border: 1px solid rgb(230, 223, 223);
+    padding-left: 20px;
+}
+
+.login-btn{
+    width: 100%;
+    height: 2.9rem;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #4E73DF;
+    color: #fff;  
+}
+.checkbox{
+    padding-right:100px ;
+    font-size: 13px;
+    color: gray;
+}
+#checkbox{
+margin-bottom: 20px;
+}
+.social-media>a{
+    padding:14px 55px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+text-align: center;
+color: #fff;
+}
+.social-media{
+    margin:20px 0 10px 0 ;
+}
+.social-media>a>i{
+    padding: 0 10px;
+}
+.social-media>:nth-child(1){
+    background-color:#EA4335 ;
+}
+.social-media>:nth-child(2){
+    background-color:#3B5998 ;
+}
+.footer-links{
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer-links>a{
+    color: #4E73DF;
+}

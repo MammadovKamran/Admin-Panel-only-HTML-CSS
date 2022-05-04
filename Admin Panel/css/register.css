@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .d-flex {
+      display: flex;
+    }
+    .direction-row {
+      flex-direction: row;
+    }
+    .direction-column {
+      flex-direction: column;
+    }
+    .justify-between {
+      justify-content: space-between;
+    }
+    .justify-around {
+      justify-content: space-around;
+    }
+    .justify-center {
+      justify-content: center;
+    }
+    .justify-start{
+        justify-content: flex-start;
+    }
+    .align-center {
+      align-items: center;
+    }
+    .align-end {
+      align-items: flex-end;
+    }
+  .align-start{
+        align-items:start;
+    }
+    .container{
+        display: block;
+        width: 100%;
+        height: 112vh;
+        background-color: #4469d4;
+    }
+    main{
+        position: relative;
+        display: flex;
+        margin: auto;
+        top: 50px;
+        width: 80%;
+        height: 97vh;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .right-block{
+        width: 100%;
+        height: 97vh;
+        padding: 60px 40px  60px 60px;
+    }
+    .dog-img{
+        width: 50%;
+        height: 97vh;
+        border-radius: 8px 0 0 8px;
+    }
+    .register>h1{
+        font-size: 24px;
+        font-weight: 300;
+      padding-bottom: 30px;
+        color: rgb(80, 78, 78);
+        text-align: center;
+    }
+    .register>input{
+        width: 100%;
+    }
+    .double-input>input{
+        width: 48%;
+        height: 53px;
+    }
+    input:not([type="button"]){
+        margin-bottom: 16px;
+        border-radius: 23px;
+        height: 53px;
+        padding: 0 20px;
+        border: 1px  solid gainsboro;
+    }
+    .register-btn{
+        height: 44px;
+        background-color: #4E73DF;
+        color: #fff;
+        margin-bottom: 16px;
+        border-radius: 23px;
+        border: none;
+    }
+    .social-media>a{
+        text-decoration: none;
+        color: #fff;
+        border-radius: 23px;
+        padding:14px 0;
+        border: none;
+        text-align: center;
+        font-size: 14px;
+    }
+.social-media>a>i{
+    padding: 0 10px;
+}
+.facebook-btn{
+    background-color: #3B5998;
+    margin: 10px 0 16px 0;
+}
+.google-btn{
+    margin-top: 16px;
+    background-color: #EA4335;
+}
+.footer-links{
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.footer-links>a{
+    color: #4E73DF;
+    padding-bottom: 7px;
+}

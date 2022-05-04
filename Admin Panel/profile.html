@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Profile</title>
+  </head>
+  <body>
+    <!--Container-->
+    <div class="container d-flex">
+      <!--Status Bar-->
+      <div class="status-bar"></div>
+      <!--Right Container-->
+      <div class="right-container">
+        <!--Navigation bar-->
+        <nav class="d-flex justify-between">
+          <div class="nav-left">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search for ..."
+            />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="nav-right d-flex">
+            <!--bell and letter icon-->
+            <div class="nav-icons d-flex align-center">
+              <div>
+                <i class="fas fa-bell"></i>
+                <p>3+</p>
+              </div>
+              <div>
+                <i class="fas fa-envelope"></i>
+                <p>7</p>
+              </div>
+            </div>
+            <!--Nav profile-->
+            <div class="nav-profile d-flex align-center">
+              <p>Valerie Luna</p>
+              <img class="profile-logo" src="./img/profile.jpeg" />
+            </div>
+          </div>
+        </nav>
+        <!--Main-->
+        <div class="main-header"><h1>Profile</h1></div>
+        <main>
+          <!--Main Left-->
+
+          <div class="main-left">
+            <div
+              class="
+                change-photo
+                d-flex
+                direction-column
+                align-center
+                justify-center
+              "
+            >
+              <img src="./img/dog-register.jpeg" alt="Profile Photo" />
+              <button type="submit">Change Photo</button>
+            </div>
+            <div class="projects-box">
+              <div class="header-text"><h5>Projects</h5></div>
+              <div class="projects-main">
+                <div>
+                  <p>Server migration</p>
+                  <p>20%</p>
+                </div>
+                <div class="gray-line">
+                  <div class="red-line"></div>
+                </div>
+                <div>
+                  <p>Sales tracking</p>
+                  <p>40%</p>
+                </div>
+                <div class="gray-line">
+                  <div class="yellow-line"></div>
+                </div>
+                <div>
+                  <p>Customer Database</p>
+                  <p>60%</p>
+                </div>
+                <div class="gray-line">
+                  <div class="darkblue-line"></div>
+                </div>
+                <div>
+                  <p>Payout Details</p>
+                  <p>80%</p>
+                </div>
+                <div class="gray-line">
+                  <div class="blue-line"></div>
+                </div>
+                <div>
+                  <p>Account setup</p>
+                  <p>Complete!</p>
+                </div>
+                <div class="gray-line">
+                  <div class="green-line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Main Right Settings-->
+          <div class="main-right">
+              <!--User Settings-->
+            <div class="user  d-flex direction-column"> 
+              <div class="header-text"><h5>User Settings</h5></div>
+              <div class="user-main settings-box d-flex">
+              <div class="user-left d-flex direction-column">
+                <label>Username</label>
+                <input type="text"name="username"id="username" placeholder="user.name"/>
+                <label>First Name</label>
+                <input type="text" name="firstname" id="firstname"  placeholder="John" />
+                <input type="submit" id="save-settings-btn" value="Save Settings">
+              </div>
+              <div class="user-right d-flex direction-column">
+                <label>Email Address</label>
+                <input type="email" name="email" id="email"placeholder="user@example.com"/>
+                <label>Last Name</label>
+                <input type="text" name="last-name"  id="last-name"  placeholder="Doe" />
+              </div>
+            </div>
+          </div>
+          <!--Contact Settings-->
+            <div class="contact  d-flex direction-column">
+              <div class="header-text"><h5>Contact Settings</h5></div>
+              <div class="contact-main settings-box d-flex direction-column">
+              <label> Address</label>
+              <input type="text" name="address" id="address" placeholder="Sunset Blvd,38">
+              <div class=" small d-flex direction-row">
+                <div class="d-flex direction-column">
+                  <label>City</label>
+                <input type="text" name="city" id="city" placeholder="Los Angeles">
+              </div>
+              <div class="d-flex direction-column"> 
+              <label>Country</label>
+                <input type="text" name="country" id="Country" placeholder="USA">
+              </div>
+              </div>
+              <input type="submit" id="save-settings-btn" value="Save Settings">
+            </div>
+          </div>
+          </div>
+        </main>
+        <!--Forum Settings-->
+         <div class="last-box">
+        <div class="form-settings d-flex direction-column">
+          <div class="header-text"><h5>Forum Settings</h5></div>
+          <div class="form-settings-main d-flex direction-column">
+           <label>Signature</label>
+          <textarea name="" id="text-area" cols="80" rows="8"></textarea>
+          <div class="d-flex">
+          <label class="switch">
+            <input class="switch-checkbox" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          <label class="switch-text">Notify me about new replies</label>
+        </div>
+          <input type="submit" id="save-settings-btn" value="Save Settings">
+        </div>
+        </div>
+    </div>
+    <p class="footer-text">Copyright © Brand 2021</p>
+  </div>
+</div>
+
+  </body>
+  
+</html>

@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.d-flex {
+  display: flex;
+}
+.direction-row {
+  flex-direction: row;
+}
+.direction-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.right-container {
+  width: 83%;
+}
+.container {
+  min-height: 100vh;
+}
+.status-bar {
+  background-color: #2c53c6;
+  width: 17%;
+  height: inherit;
+}
+nav {
+  position: relative;
+  border-bottom: none;
+  padding: 20px 0;
+  box-shadow: 0 5px 5px rgb(221, 215, 215);
+}
+.nav-left {
+  margin-left: 40px;
+}
+.nav-left > input {
+  width: 23rem;
+  height: 35px;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  background-color: #f8f9fc;
+  outline-color: #b3b3af;
+}
+.nav-left > button {
+  height: 35px;
+  width: 45px;
+  font-size: 16px;
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  margin-left: -4.5px;
+}
+.nav-right {
+  height: 35px;
+}
+.profile-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.nav-profile {
+  padding: 0 25px;
+  border-left: 1px solid #e0d6dc;
+}
+.nav-profile > p {
+  color: #a58799;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.nav-icons > div > i {
+  color: #d1d3e2;
+  padding-right: 20px;
+}
+.nav-icons > div {
+  position: relative;
+  margin-right: 20px;
+}
+.nav-icons p {
+  width: 18px;
+  height: 16px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 5px;
+  padding-top: 2px;
+  color: #fff;
+  background-color: #e74a3b;
+  position: absolute;
+  top: -6px;
+  right: 9px;
+}
+main {
+  background-color: #f6f7fa;
+  padding: 30px;
+}
+main > div > h1 {
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #3a3b45;
+  font-size: 28px;
+}
+.employee-box {
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+}
+.box-header {
+  border-bottom: 1px solid gainsboro;
+  border-radius: 8px 8px 0 0;
+  padding: 20px 15px 20px;
+  font-size: 18px;
+  color: #4e73df;
+  background-color: #f8f9fc;
+}
+.box-main {
+  background-color: #fff;
+  padding: 20px 15px;
+  color: #a58796;
+}
+#show {
+  color: #a58796;
+  border: 1px solid gainsboro;
+  height: 32px;
+  width: 120px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+#search {
+  color: #a58796;
+  border: 1px solid gainsboro;
+  height: 32px;
+  width: 11rem;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+thead > tr > th {
+  border-bottom: 1px solid gray;
+}
+th,
+td {
+  padding: 5px;
+}
+th {
+  text-align: start;
+}
+tfoot > tr > td {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+tbody > :last-child > td {
+  border: none;
+}
+
+tbody > tr > td {
+  border-bottom: 1px solid gainsboro;
+}
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+tbody > tr > td:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+tbody > tr > td > :nth-child(1) {
+  margin-right: 10px;
+}
+.pages {
+  margin: 30px 0 20px 0;
+}
+li > a {
+  text-decoration: none;
+  border: 1px solid gainsboro;
+  padding: 8px 13px;
+  font-size: 18px;
+  color: #4e73df;
+}
+ul,
+li {
+  list-style: none;
+}
+ul > :nth-child(1) > a {
+  color: gray;
+  border-radius: 5px 0 0 5px;
+}
+ul > :last-child > a {
+  border-radius: 0 5px 5px 0;
+}
+ul > :nth-child(2) > a {
+  background-color: #4e73df;
+  color: #fff;
+}
+.footer-text {
+  font-size: 14px;
+  color: #898796;
+  text-align: center;
+  margin-top: 30px;
+}

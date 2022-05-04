@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard-Brand</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Container-->
+    <div class="container d-flex">
+      <!--Status Bar-->
+      <div class="status-bar"></div>
+      <!--Right Container-->
+      <div class="right-container">
+        <!--Navigation bar-->
+        <nav class="d-flex justify-between">
+          <div class="nav-left">
+            <input type="search" name="search" id="search" placeholder="Search for ..."/>
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="nav-right d-flex">
+            <!--bell and letter icon-->
+            <div class="nav-icons d-flex align-center">
+             <div><i class="fas fa-bell"></i>
+                <p>3+</p>
+               </div>
+              <div><i class="fas fa-envelope"></i>
+                <p>7</p>
+              </div>
+            </div>
+            <!--Nav profile-->
+            <div class="nav-profile d-flex align-center">
+              <p>Valerie Luna</p>
+              <img class="profile-logo" src="./img/profile.jpeg" />
+            </div>
+          </div>
+        </nav>
+        <!--Main-->
+        <main>
+          <div class="main-header d-flex justify-between">
+            <h1>Dashboard</h1>
+            <button type="submit">
+              <i class="fas fa-download"></i>General Report
+            </button>
+          </div>
+          <div class="statistica d-flex justify-around">
+            <div class="earn-monthly box">
+              <div>
+                <p>EARNINGS (MONTHLY)</p>
+                <p class="number">$40,000</p>
+              </div>
+              <i class="fas fa-calendar"></i>
+            </div>
+            <div class="earn-annual box">
+              <div>
+                <p>EARNINGS (ANNUAL)</p>
+                <p class="number">$215,000</p>
+              </div>
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="tasks box d-flex direction-column">
+              <p>TASKS</p>
+              <div
+                class="a d-flex justify-between align-center"
+                style="margin-bottom: 20px"
+              >
+                <p class="number">50%</p>
+                <div class="gray"><div class="blue"></div></div>
+                <i class="fas fa-clipboard-list"></i>
+              </div>
+            </div>
+            <div class="pending box">
+              <div>
+                <p>PENDING REQUESTS</p>
+                <p class="number">18</p>
+              </div>
+              <i class="fas fa-comments"></i>
+            </div>
+          </div>
+          <!--Grapichs img -->
+          <div class="grapichs d-flex justify-between">
+            <div>
+              <div class="grapichs-header d-flex justify-between">
+                <p>Earnings Overview</p>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img class="img-left" src="./img/picture1.png" alt="" />
+            </div>
+            <div>
+              <div class="grapichs-header d-flex justify-between">
+                <p>Revenue Sources</p>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img class="img-right" src="./img/picture2.png" alt="" />
+            </div>
+          </div>
+          <!--Projects and Colors-->
+      <div class="three-box">
+          <div class="projects-box">
+            <div class="projects-header">
+              <h5>Projects</h5>
+            </div>
+              <div class="projects-main">
+              <div>
+              <p>Server migration</p>
+              <p>20%</p>
+            </div>
+           <div class="gray-line">
+             <div class="red-line"></div>
+           </div>
+           <div>
+            <p>Sales tracking</p>
+            <p>40%</p>
+          </div>
+           <div class="gray-line">
+             <div class="yellow-line"></div>
+           </div>
+           <div>
+             <p>Customer Database</p>
+             <p>60%</p>
+           </div>
+           <div class="gray-line">
+             <div class="darkblue-line"></div>
+           </div>
+           <div>
+             <p>Payout Details</p>
+             <p>80%</p>
+           </div>
+           <div class="gray-line">
+             <div class="blue-line"></div>
+           </div>
+           <div>
+             <p>Account setup</p>
+             <p>Complete!</p>
+           </div>
+           <div class="gray-line">
+             <div class="green-line"></div>
+           </div>
+          </div>
+          </div>
+          <div class="colors-meaning">
+            <div>
+              <p>Primary</p>
+              <p>#4e73df</p>
+            </div>
+            <div>
+              <p>Success</p>
+              <p>#1cc88a</p>
+            </div>
+            <div>
+              <p>Info</p>
+              <p>#36b9cc</p>
+            </div>
+            <div>
+              <p>Warning</p>
+              <p>#f6c23e</p>
+            </div>
+            <div>
+              <p>Danger</p>
+              <p>#e74a3b</p>
+            </div>
+            <div>
+              <p>Secondary</p>
+              <p>#858796</p>
+            </div>
+          </div>
+            <div class="todo-list">
+              <div class="todos-header">
+                <p>Todo List</p>
+              </div>
+              <div class="todos-main">
+                <div  class="todos-lunch d-flex justify-between">
+                  <div class="d-flex  direction-column">
+                    <label>Lunch meeting</label>
+                    <label>10:30 AM</label>
+                  </div>
+                <div><input type="checkbox" name="" id=""></div>
+              </div>
+              <div  class="todos-lunch d-flex justify-between">
+                <div class="d-flex  direction-column">
+                  <label>Lunch meeting</label>
+                  <label>11:30 AM</label>
+                </div>
+                <div><input type="checkbox" name="" id=""></div>
+              </div>
+              <div class="todos-lunch d-flex justify-between">
+                <div class="d-flex  direction-column">
+                <label>Lunch meeting</label>
+                <label>12:30 AM</label>
+              </div>
+                <div><input type="checkbox" name="" id=""></div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer"><p>Copyright © Brand 2021</p></div>
+        </div>
+        </main>
+      </div>
+  </body>
+</html>

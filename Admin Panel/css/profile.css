@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.d-flex {
+  display: flex;
+}
+.direction-row {
+  flex-direction: row;
+}
+.direction-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+.right-container {
+  width: 84%;
+  min-height: inherit;
+}
+.status-bar {
+  background-color: #2c53c6;
+  width: 16%;
+  min-height: inherit;
+}
+nav {
+  position: relative;
+  border-bottom: none;
+  padding: 20px 0;
+  box-shadow: 0 5px 5px rgb(221, 215, 215);
+}
+.nav-left {
+  margin-left: 20px;
+}
+.nav-left > input {
+  width: 23rem;
+  height: 35px;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  background-color: #f8f9fc;
+  outline-color: #b3b3af;
+}
+.nav-left > button {
+  height: 35px;
+  width: 45px;
+  font-size: 16px;
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  margin-left: -4.5px;
+}
+.nav-right {
+  height: 35px;
+}
+.profile-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.nav-profile {
+  padding: 0 25px;
+  border-left: 1px solid #e0d6dc;
+}
+.nav-profile > p {
+  color: #a58799;
+  font-size: 13px;
+}
+
+.nav-icons > div > i {
+  color: #d1d3e2;
+  padding-right: 20px;
+}
+.nav-icons > div {
+  position: relative;
+}
+.nav-icons p {
+  width: 18px;
+  height: 16px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 5px;
+  padding-top: 2px;
+  color: #fff;
+  background-color: #e74a3b;
+  position: absolute;
+  top: -6px;
+  right: 9px;
+}
+main {
+  display: flex;
+  background-color: #f8f9fc;
+  padding: 0 25px;
+  min-height: inherit;
+}
+.main-header {
+  background-color: #f8f9fc;
+  padding: 0 25px;
+  width: 100%;
+}
+.main-header > h1 {
+  padding: 25px 0;
+  font-weight: 100;
+  font-size: 30px;
+  color: #3a3b45;
+}
+.change-photo {
+  width: 22rem;
+  height: 17rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 3px #eee1e1;
+  border: 2px thin #d8d2d2;
+}
+.change-photo > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+.change-photo > button {
+  margin-top: 20px;
+  padding: 8px 10px;
+  color: #fff;
+  background-color: #4e73df;
+  border: none;
+  border-radius: 3px;
+}
+.gray-line {
+  display: flex;
+  width: 20rem;
+  height: 8px;
+  background-color: #eaecf4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.red-line {
+  width: 20%;
+  background-color: #e74a3b;
+  border-radius: 5px 0 0 5px;
+}
+.yellow-line {
+  width: 40%;
+  background-color: #f6c23e;
+  border-radius: 5px 0 0 5px;
+}
+.darkblue-line {
+  width: 60%;
+  background-color: #4e73df;
+  border-radius: 5px 0 0 5px;
+}
+.blue-line {
+  width: 80%;
+  background-color: #36b9cc;
+  border-radius: 5px 0 0 5px;
+}
+.green-line {
+  width: 100%;
+  background-color: #1cc88a;
+  border-radius: 5px;
+}
+.projects-box {
+  width: 22rem;
+  height: 21rem;
+  background-color: #fff;
+  border-radius:10px;
+  margin-right: auto;
+  margin-top:30px;
+  box-shadow: 0px 0px 5px 3px #eee1e1;
+}
+.header-text {
+  color: #4e73df;
+  background-color: #f8f9fc;
+  padding: 17px;
+  border: 1px solid rgb(240, 238, 238);
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+}
+.projects-main > :nth-child(odd) {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8587b1;
+}
+.projects-main {
+  margin:0 20px;
+}
+.main-right {
+  width: 100%;
+  margin: 0 10px 20px 30px;
+}
+.settings-box {
+  background-color: #fff;
+  width: 100%;
+  height: 16rem;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  color: #898796;
+  line-height: 24px;
+  font-weight: 550;
+}
+.user{
+  box-shadow: 0px 0px 5px 3px #eee1e1;
+  border-radius: 10px;
+}
+.user-main > div > label {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+input:not([type="button"]):not([type="search"]){
+  text-align: start;
+  padding-left: 15px;
+  height: 38px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1.5px solid gainsboro;
+  font-size: 15px;
+}
+.user-main > div > input:not([type="submit"]) {
+  width: 20rem;
+}
+.user-left {
+  margin-right: 20px;
+}
+#save-settings-btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #4e73df;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.contact{
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px 3px #eee1e1;
+  border-radius: 10px;
+}
+.contact>input{
+  width: 100%;
+}
+.contact label{
+  padding-bottom: 10px;
+}
+.small>div>input{
+  width: 320px;
+}
+#city{
+margin-right:20px;
+}
+.last-box{
+  display: flex;
+  background-color: #f8f9fc;
+  padding: 0 25px;
+}
+.form-settings{
+  width: 100%;
+  height:20rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 3px #eee1e1;
+  margin-bottom:5rem ;
+}
+.form-settings-main{
+  margin:20px;
+}
+.form-settings-main>label{
+  color: #898796;
+  line-height: 24px;
+  font-weight: 550;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+#text-area{
+  width: 50%;
+  height: 7rem;
+  border: 1px solid rgb(221, 218, 218);
+  border-radius: 5px;
+}
+/*switch checkbox*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+  margin: 20px 0;
+}
+
+.switch-checkbox { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right:-3px;
+  bottom: 0;
+  border: 1px solid gainsboro;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 2px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.switch-checkbox:checked + .slider {
+  background-color: #2196F3;
+}
+
+.switch-checkbox:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switch-checkbox:checked + .slider:before {
+  transform: translateX(16px);
+  background-color: #fff;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.switch-text{
+  padding-top:20px;
+  padding-left: 10px;
+  color: #898796;
+  font-weight: 550;
+  font-size: 16px;
+}
+.footer-text{
+  font-size: 14px;
+  color: #898796;
+  text-align: center;
+  margin-bottom: 30px;
+}
